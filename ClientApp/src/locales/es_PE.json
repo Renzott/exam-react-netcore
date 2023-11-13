@@ -1,0 +1,29 @@
+{
+    "labels": {
+        "infoTitle": "Información del evento",
+        "infoDescription": "Añade la información que consideres necesaria",
+        "eventTitle": "Tipo de evento",
+        "eventDescription": "Selecciona una opción",
+        "graphicEventLabel": "Selecciona la gráfica que ayudará al estudiante a identificar tu evento",
+        "teacher": "Docente a cargo",
+        "teacherLabel": "Docente solo aplica para Academica",
+        "teacherSpan": "Buscar al docente dando click en el botón",
+        "teacherButton": "Buscar Docente",
+        "teacherInputLabel": "Escribe sus datos si no esta en la lista"
+    },
+    "form": {
+        "title": "Titulo",
+        "description": "Descripción",
+        "highlightEvent": "Destacar evento",
+        "typeEvent": "Tipo de evento",
+        "subEvent": "Subtipo de evento",
+        "graphicEvent": "Gráfica para el evento",
+        "districs": "Dirigido a estudiantes del campus",
+        "capacity": "Capacidad de vacantes",
+        "campus": "Organizado por:",
+        "place": "Ubicación:",
+        "date": "Fecha:",
+        "hourStart": "Hora de inicio:",
+        "hourEnd": "Hora de Fin:"
+    }
+}

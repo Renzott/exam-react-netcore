@@ -1,0 +1,42 @@
+.modal{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+}
+
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: .5;
+    background-color: #000;
+    z-index: 10;
+}
+
+.modal-container{
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    max-width: 600px;
+    margin: 0 auto;
+    top: 30%;
+    padding: 20px;
+    background-color: #fff;
+    z-index: 10;
+
+    @apply rounded-lg shadow-lg;
+}
+
+.modal-open{
+    display: block;
+}
+
+.modal-close{
+    display: none;
+}

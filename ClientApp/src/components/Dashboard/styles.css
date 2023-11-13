@@ -1,0 +1,23 @@
+.dashboard-container{
+    @apply fixed w-[80px] h-screen bg-white;
+    z-index: 2;
+}
+
+.dashboard-card{
+    @apply h-[80px] flex flex-col gap-2 justify-center items-center text-sm;
+    @apply bg-white hover:bg-gray-200 delay-75 transition-all duration-300 ease-in-out;
+    @apply cursor-pointer;
+}
+
+.dashboard-button{
+    @apply bg-red-400 flex justify-center items-center w-full h-[72px]
+}
+
+.button-menu{
+    filter: invert(1);
+    @apply w-[30px] h-[30px];
+}
+
+.dashboard-icon{
+    @apply w-[20px] h-[20px];
+}

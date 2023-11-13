@@ -1,0 +1,22 @@
+import "./styles.css"
+
+interface BottomFormProps {
+    step: number;
+    setStep: (step: number) => void;
+}
+
+const BottomForm = ({ step }: BottomFormProps) => {
+    return (
+        <div className="buttom-container">
+            <div>
+                <button type="button" className="button ">Cancelar</button>
+                <button type="submit" className="button button-outline">Guardar Borrador</button>
+            </div>
+            <div>
+                <button type="submit" className="button button-submit">Guardar y continuar</button>
+            </div>
+        </div>
+    )
+}
+
+export default BottomForm;

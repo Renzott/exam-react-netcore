@@ -1,0 +1,7 @@
+.select-container{
+    @apply flex flex-col;
+}
+
+.select-input{
+    @apply bg-white border border-gray-300 rounded-md shadow-sm my-4 py-2 px-1 w-[190px];
+}

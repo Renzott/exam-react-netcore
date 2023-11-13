@@ -1,0 +1,32 @@
+.navbar-container{
+    @apply bg-white fixed w-full flex flex-row flex-wrap items-center justify-end shadow-md max-w-full py-4;
+    z-index: 2;
+}
+
+.navbar-profile{
+    @apply flex flex-row items-center justify-center px-10;
+}
+
+.navbar-icon{
+    @apply w-6 h-6;
+}
+
+.bell-notify{
+    @apply flex w-fit h-full items-center cursor-pointer;
+}
+
+.vertical-divider{
+    @apply border-r border-gray-300 h-6 mx-1;
+}
+
+.bell-number{
+    @apply flex items-center bg-yellow-400 rounded-full relative -top-2 right-3 w-5 h-5 text-[0.7rem] text-center justify-center;
+}
+
+.profile-info{
+    @apply flex flex-col items-start justify-center text-[0.8rem] ml-3;
+}
+
+.profile-picture{
+    @apply w-10 h-10 rounded-full ml-4;
+}

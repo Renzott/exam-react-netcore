@@ -1,0 +1,19 @@
+.step-container{
+    @apply w-auto h-auto pb-16 bg-[#EFF5FC];
+}
+
+.step-card{
+    @apply w-auto h-auto p-6 mb-10 bg-white rounded-xl;
+}
+
+.step-subcard{
+    @apply flex flex-row place-content-between mt-4;
+}
+
+.teacher-card{
+    @apply my-6;
+}
+
+.button-teacher{
+    @apply w-[200px] h-[40px] rounded-sm text-purple-600 border-purple-700 border font-bold my-4;
+}

@@ -1,0 +1,16 @@
+/* button of the page */
+.buttom-container{
+    @apply absolute inset-x-0 bottom-0 h-20 bg-white rounded-md flex flex-row place-content-between mt-8 place-items-center;
+}
+
+.button{
+    @apply mx-4 rounded-lg text-purple-600 font-semibold px-4 py-2;
+}
+
+.button-outline{
+    @apply mx-4 rounded-lg text-purple-600 font-semibold px-4 py-2 border-2 border-purple-600;
+}
+
+.button-submit{
+    @apply mx-4 rounded-lg text-white font-semibold px-4 py-2 bg-purple-600;
+}

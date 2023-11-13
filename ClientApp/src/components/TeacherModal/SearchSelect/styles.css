@@ -1,0 +1,19 @@
+.search-container{
+    @apply flex flex-col items-center mx-8 mt-4;
+}
+
+.search-input{
+    @apply w-full border border-gray-300 rounded-md shadow-sm;
+}
+
+.search-results{
+    @apply w-auto mx-8 border border-gray-300 rounded-md shadow-sm;
+}
+
+.search-option{
+    @apply flex py-1;
+}
+
+.search-option:hover{
+    @apply bg-gray-100 cursor-pointer;
+}

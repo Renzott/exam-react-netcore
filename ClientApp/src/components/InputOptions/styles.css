@@ -1,0 +1,13 @@
+.option-card{
+    @apply w-auto h-[100px] border shadow-lg rounded-xl flex items-center justify-center cursor-pointer px-8 transition-all my-4 ;
+}
+
+.checked{
+    @apply border-purple-700 delay-75 transition-all;
+}
+
+.option-image{
+    height: 80px !important;
+    max-width: 80px !important;
+    min-width: 80px;
+}

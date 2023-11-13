@@ -1,0 +1,452 @@
+[
+    {
+        "id": 1,
+        "username": "Juan González",
+        "email": "juan.gonzalez@mail.com"
+    },
+    {
+        "id": 2,
+        "username": "Ana Rodríguez",
+        "email": "ana.rodriguez@mail.com"
+    },
+    {
+        "id": 3,
+        "username": "Miguel López",
+        "email": "miguel.lopez@mail.com"
+    },
+    {
+        "id": 4,
+        "username": "María García",
+        "email": "maria.garcia@mail.com"
+    },
+    {
+        "id": 5,
+        "username": "Francisco Pérez",
+        "email": "francisco.perez@mail.com"
+    },
+    {
+        "id": 6,
+        "username": "Laura Sánchez",
+        "email": "laura.sanchez@mail.com"
+    },
+    {
+        "id": 7,
+        "username": "Carlos Ramírez",
+        "email": "carlos.ramirez@mail.com"
+    },
+    {
+        "id": 8,
+        "username": "Isabel Torres",
+        "email": "isabel.torres@mail.com"
+    },
+    {
+        "id": 9,
+        "username": "José Martínez",
+        "email": "jose.martinez@mail.com"
+    },
+    {
+        "id": 10,
+        "username": "Carmen López",
+        "email": "carmen.lopez@mail.com"
+    },
+    {
+        "id": 11,
+        "username": "Antonio Serrano",
+        "email": "antonio.serrano@mail.com"
+    },
+    {
+        "id": 12,
+        "username": "Sara Medina",
+        "email": "sara.medina@mail.com"
+    },
+    {
+        "id": 13,
+        "username": "Javier Fernández",
+        "email": "javier.fernandez@mail.com"
+    },
+    {
+        "id": 14,
+        "username": "Elena Martínez",
+        "email": "elena.martinez@mail.com"
+    },
+    {
+        "id": 15,
+        "username": "Pedro García",
+        "email": "pedro.garcia@mail.com"
+    },
+    {
+        "id": 16,
+        "username": "Raquel Jiménez",
+        "email": "raquel.jimenez@mail.com"
+    },
+    {
+        "id": 17,
+        "username": "Ricardo Vargas",
+        "email": "ricardo.vargas@mail.com"
+    },
+    {
+        "id": 18,
+        "username": "Beatriz Ruiz",
+        "email": "beatriz.ruiz@mail.com"
+    },
+    {
+        "id": 19,
+        "username": "Alberto Mendoza",
+        "email": "alberto.mendoza@mail.com"
+    },
+    {
+        "id": 20,
+        "username": "Silvia Ortiz",
+        "email": "silvia.ortiz@mail.com"
+    },
+    {
+        "id": 21,
+        "username": "Héctor Medina",
+        "email": "hector.medina@mail.com"
+    },
+    {
+        "id": 22,
+        "username": "Natalia Torres",
+        "email": "natalia.torres@mail.com"
+    },
+    {
+        "id": 23,
+        "username": "Fernando Ríos",
+        "email": "fernando.rios@mail.com"
+    },
+    {
+        "id": 24,
+        "username": "Adriana Soto",
+        "email": "adriana.soto@mail.com"
+    },
+    {
+        "id": 25,
+        "username": "Gustavo Castillo",
+        "email": "gustavo.castillo@mail.com"
+    },
+    {
+        "id": 26,
+        "username": "Clara Navarro",
+        "email": "clara.navarro@mail.com"
+    },
+    {
+        "id": 27,
+        "username": "Roberto Salazar",
+        "email": "roberto.salazar@mail.com"
+    },
+    {
+        "id": 28,
+        "username": "Mónica Vargas",
+        "email": "monica.vargas@mail.com"
+    },
+    {
+        "id": 29,
+        "username": "Diego Herrera",
+        "email": "diego.herrera@mail.com"
+    },
+    {
+        "id": 30,
+        "username": "Lourdes Mendoza",
+        "email": "lourdes.mendoza@mail.com"
+    },
+    {
+        "id": 31,
+        "username": "Manuel Flores",
+        "email": "manuel.flores@mail.com"
+    },
+    {
+        "id": 32,
+        "username": "Patricia Sánchez",
+        "email": "patricia.sanchez@mail.com"
+    },
+    {
+        "id": 33,
+        "username": "Joaquín Ramírez",
+        "email": "joaquin.ramirez@mail.com"
+    },
+    {
+        "id": 34,
+        "username": "Verónica Ruiz",
+        "email": "veronica.ruiz@mail.com"
+    },
+    {
+        "id": 35,
+        "username": "Felipe Serrano",
+        "email": "felipe.serrano@mail.com"
+    },
+    {
+        "id": 36,
+        "username": "Sofía Torres",
+        "email": "sofia.torres@mail.com"
+    },
+    {
+        "id": 37,
+        "username": "Ernesto Martínez",
+        "email": "ernesto.martinez@mail.com"
+    },
+    {
+        "id": 38,
+        "username": "Alicia Ríos",
+        "email": "alicia.rios@mail.com"
+    },
+    {
+        "id": 39,
+        "username": "Fernando Herrera",
+        "email": "fernando.herrera@mail.com"
+    },
+    {
+        "id": 40,
+        "username": "Eva Flores",
+        "email": "eva.flores@mail.com"
+    },
+    {
+        "id": 41,
+        "username": "Gabriel Medina",
+        "email": "gabriel.medina@mail.com"
+    },
+    {
+        "id": 42,
+        "username": "Cristina Soto",
+        "email": "cristina.soto@mail.com"
+    },
+    {
+        "id": 43,
+        "username": "Mario Ríos",
+        "email": "mario.rios@mail.com"
+    },
+    {
+        "id": 44,
+        "username": "Luisa Torres",
+        "email": "luisa.torres@mail.com"
+    },
+    {
+        "id": 45,
+        "username": "Rodrigo Vargas",
+        "email": "rodrigo.vargas@mail.com"
+    },
+    {
+        "id": 46,
+        "username": "Valeria Mendoza",
+        "email": "valeria.mendoza@mail.com"
+    },
+    {
+        "id": 47,
+        "username": "Pablo Herrera",
+        "email": "pablo.herrera@mail.com"
+    },
+    {
+        "id": 48,
+        "username": "Isabel Salazar",
+        "email": "isabel.salazar@mail.com"
+    },
+    {
+        "id": 49,
+        "username": "Andrés Navarro",
+        "email": "andres.navarro@mail.com"
+    },
+    {
+        "id": 50,
+        "username": "Luisa Medina",
+        "email": "luisa.medina@mail.com"
+    },
+    {
+        "id": 51,
+        "username": "Fernando Mendoza",
+        "email": "fernando.mendoza@mail.com"
+    },
+    {
+        "id": 52,
+        "username": "Cecilia Torres",
+        "email": "cecilia.torres@mail.com"
+    },
+    {
+        "id": 53,
+        "username": "Martín Ramírez",
+        "email": "martin.ramirez@mail.com"
+    },
+    {
+        "id": 54,
+        "username": "María Sánchez",
+        "email": "maria.sanchez@mail.com"
+    },
+    {
+        "id": 55,
+        "username": "Joaquín Flores",
+        "email": "joaquin.flores@mail.com"
+    },
+    {
+        "id": 56,
+        "username": "Laura Vargas",
+        "email": "laura.vargas@mail.com"
+    },
+    {
+        "id": 57,
+        "username": "Miguel Soto",
+        "email": "miguel.soto@mail.com"
+    },
+    {
+        "id": 58,
+        "username": "Carla Castillo",
+        "email": "carla.castillo@mail.com"
+    },
+    {
+        "id": 59,
+        "username": "Rafael Torres",
+        "email": "rafael.torres@mail.com"
+    },
+    {
+        "id": 60,
+        "username": "Alejandra Serrano",
+        "email": "alejandra.serrano@mail.com"
+    },
+    {
+        "id": 61,
+        "username": "Javier Ramírez",
+        "email": "javier.ramirez@mail.com"
+    },
+    {
+        "id": 62,
+        "username": "Lorena Mendoza",
+        "email": "lorena.mendoza@mail.com"
+    },
+    {
+        "id": 63,
+        "username": "Gabriel Sánchez",
+        "email": "gabriel.sanchez@mail.com"
+    },
+    {
+        "id": 64,
+        "username": "Catalina Castillo",
+        "email": "catalina.castillo@mail.com"
+    },
+    {
+        "id": 65,
+        "username": "Hugo Medina",
+        "email": "hugo.medina@mail.com"
+    },
+    {
+        "id": 66,
+        "username": "Susana Torres",
+        "email": "susana.torres@mail.com"
+    },
+    {
+        "id": 67,
+        "username": "José Serrano",
+        "email": "jose.serrano@mail.com"
+    },
+    {
+        "id": 68,
+        "username": "Ana Ramírez",
+        "email": "ana.ramirez@mail.com"
+    },
+    {
+        "id": 69,
+        "username": "Andrés Vargas",
+        "email": "andres.vargas@mail.com"
+    },
+    {
+        "id": 70,
+        "username": "Mónica Sánchez",
+        "email": "monica.sanchez@mail.com"
+    },
+    {
+        "id": 71,
+        "username": "Sergio Mendoza",
+        "email": "sergio.mendoza@mail.com"
+    },
+    {
+        "id": 72,
+        "username": "Elena Torres",
+        "email": "elena.torres@mail.com"
+    },
+    {
+        "id": 73,
+        "username": "Luis Serrano",
+        "email": "luis.serrano@mail.com"
+    },
+    {
+        "id": 74,
+        "username": "Carmen Castillo",
+        "email": "carmen.castillo@mail.com"
+    },
+    {
+        "id": 75,
+        "username": "Daniel Ramírez",
+        "email": "daniel.ramirez@mail.com"
+    },
+    {
+        "id": 76,
+        "username": "María Vargas",
+        "email": "maria.vargas@mail.com"
+    },
+    {
+        "id": 77,
+        "username": "Jorge Soto",
+        "email": "jorge.soto@mail.com"
+    },
+    {
+        "id": 78,
+        "username": "Silvia Torres",
+        "email": "silvia.torres@mail.com"
+    },
+    {
+        "id": 79,
+        "username": "Ricardo Castillo",
+        "email": "ricardo.castillo@mail.com"
+    },
+    {
+        "id": 80,
+        "username": "Isabel Serrano",
+        "email": "isabel.serrano@mail.com"
+    },
+    {
+        "id": 81,
+        "username": "Carlos Medina",
+        "email": "carlos.medina@mail.com"
+    },
+    {
+        "id": 82,
+        "username": "Laura Ramírez",
+        "email": "laura.ramirez@mail.com"
+    },
+    {
+        "id": 83,
+        "username": "Héctor Vargas",
+        "email": "hector.vargas@mail.com"
+    },
+    {
+        "id": 84,
+        "username": "Verónica Soto",
+        "email": "veronica.soto@mail.com"
+    },
+    {
+        "id": 85,
+        "username": "Gustavo Torres",
+        "email": "gustavo.torres@mail.com"
+    },
+    {
+        "id": 86,
+        "username": "Marta Mendoza",
+        "email": "marta.mendoza@mail.com"
+    },
+    {
+        "id": 87,
+        "username": "José Castillo",
+        "email": "jose.castillo@mail.com"
+    },
+    {
+        "id": 88,
+        "username": "Beatriz Sánchez",
+        "email": "beatriz.sanchez@mail.com"
+    },
+    {
+        "id": 89,
+        "username": "Andrés Torres",
+        "email": "andres.torres@mail.com"
+    },
+    {
+        "id": 90,
+        "username": "Elena Mendoza",
+        "email": "elena.mendoza@mail.com"
+    }
+]

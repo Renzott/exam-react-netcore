@@ -1,0 +1,7 @@
+.layout-content{
+    @apply flex flex-row;
+}
+
+.content{
+    @apply w-screen h-auto pt-[72px] pl-[80px] bg-[#EFF5FC];
+}

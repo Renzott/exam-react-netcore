@@ -1,0 +1,10 @@
+.textArea-container{
+    @apply flex flex-col w-[49%] mb-4;
+}
+
+.textArea{
+    @apply px-4 py-4 bg-gray-50 border border-black mt-1;
+    resize: vertical;
+    min-height: 150px;
+    max-height: 300px;
+}

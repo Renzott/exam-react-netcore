@@ -1,0 +1,7 @@
+.step-container{
+    @apply w-auto h-auto bg-[#EFF5FC];
+}
+
+.step-card{
+    @apply w-auto h-auto p-6 mb-4 bg-yellow-200 rounded-xl;
+}

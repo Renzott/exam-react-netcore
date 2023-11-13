@@ -1,0 +1,4 @@
+.stepForm-container{
+    @apply w-auto h-auto bg-white m-8 relative;
+    z-index: 1;
+}
