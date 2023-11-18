@@ -9,7 +9,8 @@ public class EventController : ControllerBase
 
     [HttpPost]
     public IActionResult Post([FromBody] Object newEvent)
-    {
+    {   
+        // TODO: Connect to database
         Console.WriteLine(newEvent);
         return Ok();
     }

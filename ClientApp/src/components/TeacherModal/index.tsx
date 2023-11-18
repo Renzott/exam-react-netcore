@@ -23,7 +23,12 @@ const TeacherModal = ({ isOpen, setModalClose, setTeacher, handleInput }: ModalP
 
     return (
         <Modal isOpen={isOpen} onClose={() => setModalClose(false)}>
-            {<SearchSelect data={data} setQuery={setQuery} handleSelectOption={setTeacher} handleInput={handleInput} />}
+            <>
+                <SearchSelect data={data} setQuery={setQuery} handleSelectOption={setTeacher} handleInput={handleInput} />
+                <div className="flex justify-center mt-20">
+                    <button onClick={() => setModalClose(false)} className="bg-gray-500 text-white px-4 py-2 rounded-md">Seleccionar</button>
+                </div>
+            </>
         </Modal>
     );
 }

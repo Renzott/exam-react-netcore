@@ -52,9 +52,8 @@ const SearchSelect = ({ data = [], setQuery, handleSelectOption, handleInput }: 
                 <input type="search" onChange={(e) => {
                     handleTextChange(e.target.value)
                 }} className="search-input" value={text} />
-
             </div>
-            <div className={`search-results ${hidden ? 'hidden' : 'block'}`} onClick={() => setHidden(!hidden)}>
+            <div className={`search-results ${hidden ? 'hidden' : 'absolute'}`} onClick={() => setHidden(!hidden)}>
                 {data.map((teacher) => (
                     <div key={teacher.id} className="search-option" onClick={() => handleSelect(teacher)}>
                         <Typography type="p" text={teacher.username} />

@@ -6,7 +6,6 @@ interface InputOptionsProps extends FieldProps {
     options: string[];
 }
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const CheckboxInput = ({ field, form, options, ...props }: InputOptionsProps) => {
     return (
         <div className="flex flex-col">
@@ -16,6 +15,7 @@ const CheckboxInput = ({ field, form, options, ...props }: InputOptionsProps) =>
                     return (
                         <div key={option}>
                             <input
+                                disabled={form.isSubmitting}
                                 type="checkbox"
                                 {...field}
                                 {...props}

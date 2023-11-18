@@ -4,7 +4,6 @@ import TeacherModal from "../TeacherModal";
 import { getLabel } from "../../locales";
 import { FieldProps } from "formik";
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const TeacherForm = ({ field, form, ...props  }: FieldProps) => {
     const [openModal, setOpenModal] = useState(false);
     const [teacher, setTeacher] = useState("");

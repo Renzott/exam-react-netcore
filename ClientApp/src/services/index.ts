@@ -1,3 +1,5 @@
+import { ITeacher } from "../models";
+
 export const searchTeachersQuery = (search: string) => {
     if (!search) return [];
     const res = fetch(`/api/teacher/search?query=${search}`)
@@ -7,8 +9,9 @@ export const searchTeachersQuery = (search: string) => {
     return res;
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export const postEvent = (event: any) => {
+
+
+export const postEvent = (event: ITeacher) => {
     const res = fetch(`/api/event`, {
         method: 'POST',
         headers: {

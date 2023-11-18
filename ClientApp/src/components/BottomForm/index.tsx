@@ -1,11 +1,7 @@
 import "./styles.css"
 
-interface BottomFormProps {
-    step: number;
-    setStep: (step: number) => void;
-}
 
-const BottomForm = ({ step }: BottomFormProps) => {
+const BottomForm = () => {
     return (
         <div className="buttom-container">
             <div>

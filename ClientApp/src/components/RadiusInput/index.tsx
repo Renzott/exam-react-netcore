@@ -6,7 +6,6 @@ interface InputOptionsProps extends FieldProps {
     options: string[];
 }
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const RadiusInput = ({ field, form, options, ...props }: InputOptionsProps) => {
     return (
         <div className="flex flex-col w-fit my-4">
@@ -19,6 +18,7 @@ const RadiusInput = ({ field, form, options, ...props }: InputOptionsProps) => {
                                 type="radio"
                                 {...field}
                                 {...props}
+                                disabled={form.isSubmitting}
                                 value={option}
                                 checked={field.value === option}
                             />

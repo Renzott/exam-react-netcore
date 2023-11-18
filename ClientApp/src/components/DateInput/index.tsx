@@ -2,7 +2,6 @@ import { FieldProps } from "formik";
 import Typography from "../Typography";
 import { getLabel } from "../../locales";
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const DateInput = ({ field, form, ...props }: FieldProps) => {
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         form.setFieldValue(field.name, e.target.value);
@@ -16,6 +15,7 @@ const DateInput = ({ field, form, ...props }: FieldProps) => {
                 {...props}
                 type="date"
                 onChange={handleChange}
+                disabled={form.isSubmitting}
                 className="w-[200px] rounded-md shadow-md border border-black my-4"
             />
         </div>

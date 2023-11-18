@@ -8,14 +8,13 @@ import { getCurrentDate } from "../../utils";
 import BottomForm from "../BottomForm";
 import { useMutation } from "@tanstack/react-query";
 import { postEvent } from "../../services";
+import { ITeacher } from "../../models";
 
 const FormSteps = () => {
-
-    const [currentStep, setCurrentStep] = useState(0);
+    const [currentStep] = useState(0);
     const mutation = useMutation({
         mutationFn: postEvent
     })
-
 
     return (
         <div className="stepForm-container">
@@ -35,9 +34,10 @@ const FormSteps = () => {
                     hourStart: '06:00',
                     hourEnd: '07:00',
                 }}
-                onSubmit={(values) => {
+                onSubmit={(values: ITeacher) => {
                     console.log(values)
                     mutation.mutate(values)
+                    window.alert("Se ha enviado el formulario");
                 }}
             >
                 <Form className="h-full relative">
@@ -45,7 +45,7 @@ const FormSteps = () => {
                     {currentStep === 1 && <Step2 />}
                     {currentStep === 2 && <Step3 />}
 
-                    <BottomForm step={currentStep} setStep={setCurrentStep} />
+                    <BottomForm />
                 </Form>
             </Formik>
         </div>

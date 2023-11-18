@@ -3,10 +3,9 @@ import { getLabel } from "../../locales";
 import Typography from "../Typography";
 
 interface InputOptionsProps extends FieldProps {
-  fieldType: string;
+    fieldType: string;
 }
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const InputText = ({ field, form, fieldType, ...props }: InputOptionsProps) => {
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {         
         if (fieldType === "number") {
@@ -28,6 +27,7 @@ const InputText = ({ field, form, fieldType, ...props }: InputOptionsProps) => {
             <input
                 {...field}
                 {...props}
+                disabled={form.isSubmitting}
                 onChange={handleChange}
                 className="rounded-md shadow-md border border-black py-1 px-1 w-[120px]"
             /><span className="text-gray-500 text-sm mx-2">* Solo se permite numeros</span>

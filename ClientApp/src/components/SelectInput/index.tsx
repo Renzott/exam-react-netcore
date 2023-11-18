@@ -14,7 +14,6 @@ interface InputOptionsProps extends FieldProps {
     onChange?: (e: TargetChangeAttributes) => void;
 }
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const SelectInput = ({ field, form, options, ...props }: InputOptionsProps) => {
 
     return (

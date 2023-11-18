@@ -12,7 +12,6 @@ interface InputOptionsProps extends FieldProps {
     options: string[];
 }
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const InputOptions = ({ field, form, options, ...props }: InputOptionsProps) => {
 
     const getImages = (option: string) => {
@@ -45,6 +44,7 @@ const InputOptions = ({ field, form, options, ...props }: InputOptionsProps) => 
                                 type="radio"
                                 {...field}
                                 {...props}
+                                disabled={form.isSubmitting}
                                 value={option}
                                 checked={field.value === option}
                                 className="hidden"
